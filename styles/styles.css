@@ -228,7 +228,7 @@ body {
 }
 
 .d-block {
-  height: 50vh;
+  height: 90vh;
   box-shadow: 1em;
   mix-blend-mode: multiply;
 }
@@ -242,15 +242,26 @@ body {
   text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
 }
 
+.contnina {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 .nina {
   filter: brightness(1.1);
   mix-blend-mode: multiply;
-  height: auto;
+  max-width: 75%;
+  align-items: center;
+  justify-content: center;
 }
 
 .contParrafo {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .s1Parrafo {
