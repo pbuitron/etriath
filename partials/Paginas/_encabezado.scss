@@ -1,0 +1,53 @@
+
+body{
+    background-image: linear-gradient(to right, #ece9e6, #ffffff);
+}
+
+.navbar{
+    background-color: map-get($Colores-Principales , secondary );
+
+}
+
+.nav-link, .dropdown-item, .dropdown-menu .nav-link{
+    font-size: 1.8em;
+    color: map-get($Colores-Principales ,secondary );
+   
+}
+
+.dropdown-menu{
+    background-color:map-get($Colores-Principales , secondary);
+}
+
+
+.nav-link, .dropdown-item{
+    margin: 1.5rem;
+    color: map-get($Colores-Principales , terciary );
+    font-weight: 400;
+    :hover{
+        color: map-get($Colores-Principales , $alternative1);
+        background-color: map-get($Colores-Principales , secondary);
+        width: auto;
+    }
+}
+.btn {
+    width: 15rem;
+    border-radius: 0.5rem;
+}
+
+.dropdown-menu{
+    border-radius: 0.5rem;
+    width: auto;
+    color: map-get($Colores-Principales ,  terciary);
+    :hover{
+        color: map-get($Colores-Principales , text-color2);
+        background-color: map-get($Colores-Principales , terciary);
+        width: auto;
+    }
+}
+
+.logo{
+    
+        filter: brightness(1.1);
+        mix-blend-mode: multiply;
+    
+}
