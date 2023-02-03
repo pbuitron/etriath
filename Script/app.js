@@ -37,10 +37,10 @@ ArrayCards.forEach(tarjeta =>
 
   <div class="col">
     <div class="card">
-      <img src="${tarjeta.img}" class="card-img-top card1" alt="...">
+      <img src="${tarjeta.img}" class="card-img-top card1 text-center" alt="...">
       <div class="card-body">
-        <h5 class="card-title fs-1 fw-bolder">${tarjeta.nombre}</h5>
-        <p class="card-text">${tarjeta.descripcion}</p>
+        <h5 class="card-title fs-1 fw-bolder text-center">${tarjeta.nombre}</h5>
+        <p class="card-text text-center">${tarjeta.descripcion}</p>
       </div>
     </div>
   </div>
