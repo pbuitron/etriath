@@ -227,7 +227,7 @@ body {
 }
 
 .d-block {
-  height: 90vh;
+  height: 75vh;
   box-shadow: 1em;
   mix-blend-mode: multiply;
 }
@@ -241,6 +241,10 @@ body {
   text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
 }
 
+.header {
+  padding-top: 8em;
+}
+
 .contnina {
   display: flex;
   flex-direction: row;
@@ -251,7 +255,7 @@ body {
 .nina {
   filter: brightness(1.1);
   mix-blend-mode: multiply;
-  max-width: 75%;
+  max-width: 70%;
   align-items: center;
   justify-content: center;
 }
@@ -269,11 +273,15 @@ body {
   align-items: center !important;
 }
 
+.sectionHome {
+  padding-top: 5em;
+}
+
 .sectionHome2 {
   display: flex;
   flex-wrap: wrap;
   height: auto5vh;
-  background-image: url(../../../image/female-hand-typing-on-keyboard-of-laptop.jpg);
+  background-image: url(../image/female-hand-typing-on-keyboard-of-laptop.jpg);
   background-image: no-repeat;
   background-image: fixed;
   background-image: center;
@@ -305,11 +313,32 @@ body {
   width: 7em;
   justify-content: center;
   align-items: center;
+  border-radius: 0%;
 }
 
 .card-title, .card-text {
   color: #ece9e6;
   text-align: center;
+}
+
+#whatsapp {
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+}
+
+.layers {
+  width: 80px;
+  color: #25D366;
+  filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.4));
+}
+
+circle {
+  fill: #25d366;
+}
+
+.path {
+  fill: #fff;
 }
 
 .loader-container {
